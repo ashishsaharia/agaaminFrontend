@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.navFooterButton{
+
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: white;
+  font-family: 'Open Sans';
+  font-weight:bold;
+  color:#9D9B9F;
+  font-size: 1rem;
+}
+.navFooterButton:hover{
+  text-decoration: underline;
+}
+
+
+
+.joinNowButton{
+  cursor: pointer;
+  height: 3.2rem;
+  font-size: 1rem;
+  font-family: "Open Sans";
+  font-weight: bold;
+  color: #9D9B9F;
+  background-color: white;
+  padding: 0.8rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  border-radius: 10px;
+  border: solid #3F4CE8 3px;
+  box-shadow: 3px 3px 5px;
+  transition: all  0.2s ease;
+}
+.joinNowButton:hover {
+
+  box-shadow: 8px 8px 8px;
+}
+
+
+/* AGAAMIN LOGO */
+
+
+.logoWrapper {
+  margin-bottom: 0;
+  width: 80px;
+  height: 70px;
+  overflow: hidden; /* Ensures the image doesn't overflow the div */
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container while maintaining its aspect ratio */
+}
+
+
+/* NAVBAR START */
+
+
+.navbarWrapper{
+  /* border-bottom: solid black 1px; */
+background-color: #ffffff;
+z-index: 10;
+margin-bottom: 0px;
+position: fixed;
+top: 0;
+padding-top: 8px;
+width: 98%;
+display: flex;
+justify-content: space-between;
+
+}
+.navButtonWrapper{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+}
+.navRouterButtonWrapper{
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+
+/* SECTION ONE START */
+
+
+.sectionOneWrapper{
+  margin-top: 80px;
+  width: 92%;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionOneLeft{
+  width: 40%;
+}
+
+.sectionOneImageWrapper {
+  width: 60%;
+  height:100%;
+  overflow: hidden; /* Ensures the image doesn't overflow the div */
+}
+
+.sectionOneImageWrapper>img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container while maintaining its aspect ratio */
+}
+
+.sectionOneLeft>h1{
+  font-family: 'Fugaz One';
+  font-size: 3.8rem;
+
+}
+
+.sectionOneLeft>h3{
+  font-family: 'Open Sans';
+  color: #9D9B9F;
+}
+
+.sectionOneLeft>.claimSmartName{
+  color: #8FA2DE;
+}
+
+
+
+/* SECTION TWO START */
+
+
+
+.sectionTwoWrapper{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  width: 92%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionTwoCenter{
+  text-align: center;
+  width: 40%;
+}
+.sectionTwoCenter>h1{
+  font-family: 'Open Sans';
+  font-weight:600;
+  color:#28293B ;
+}
+.sectionTwoCenter>h3{
+  font-family: 'Open Sans';
+  color:#6C6B6E ;
+  font-size: medium;
+}
+
+.sectionTwoLogos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoOneWrapper, .logoTwoWrapper, .logoThreeWrapper{
+  width: 20%;
+  height:100%;
+  overflow: hidden; /* Ensures the image doesn't overflow the div */
+}
+
+.logoOne, .logoTwo, .logoThree{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container while maintaining its aspect ratio */
+}
+
+
+/* SECTION THREE START */
+
+.sectionThreeWrapper{
+  margin-top: 100px;
+  width: 90%;
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.sectionThreeLeft{
+  text-align: center;
+  margin-left:5% ;
+  width: 40%;
+}
+.sectionThreeLeft>h1{
+  font-family: 'Fugaz One';
+  color: #F99417;
+  font-size: 45px;
+}
+.sectionThreeLeft>h2{
+  font-family: 'Fugaz One';
+  font-size: 36px;
+}
+
+
+.sectionThreeRight{
+  max-width: 600px;
+  width: 40%;
+  overflow: hidden; /* Ensures the image doesn't overflow the div */
+}
+
+.services{
+  
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container while maintaining its aspect ratio */
+  
+}
+
+
+
+/* SECTION FOUR START */
+
+.sectionFourWrapper{
+  width: 95%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sectionFourCenter{
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionFourCenter>h1{
+  font-family: "Fugaz One";
+  font-size: 2.5rem;
+}
+.sectionFourCenter>h2{
+  font-size:large;
+  color: #6C6B6E;
+  font-family: 'Open Sans';
+}
+
+.sectionFourTable{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+.sectionFourTable>tr>td{
+  padding: 10px;
+  font-size: 1.5em;
+  font-family: "Fugaz One";
+  transition: all 0.2s;
+}
+a:hover{
+  color: #F99417;
+}
+
+
+
+/* SECTION FIVE START */
+
+.sectionFiveWrapper{
+  margin-top: 50px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  width: 95%;
+  text-align: center;
+}
+
+.sectionFiveLeft{
+  width: 40%;
+  font-family: "Fugaz One";
+
+}
+.sectionFiveRight{
+  max-width: 600px;
+  width: 25%;
+  overflow: hidden; /* Ensures the image doesn't overflow the div */
+}
+
+
+.domains{
+  
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container while maintaining its aspect ratio */
+  
+}
+.sectionFiveLeft>strong{
+  font-size: 2.7rem;
+  color:#F99417;
+
+}
+.sectionFiveLeft>h1{
+  margin: 5px;
+}
+
+
+/* SECTION SIX START HERE  */
+
+.sectionSixWrapper{
+  width: 92%;
+ display: flex;
+ flex-direction: column;
+  background-color:#F5F5F5 ;
+}
+
+.sectionSixTop{
+  align-self: center;
+  margin-top: 30px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sectionSixTop>h1{
+  margin: 0;
+  font-family: "Fugaz One";
+  color:#5D5597 ;
+}
+
+.sectionSixTop>h3{
+  font-family: "Open Sans";
+}
+
+.sectionSixMiddle{
+  font-size: 1.2rem;
+  color: #F99417;
+  font-family: "fugaz one";
+  font-weight: 200;
+  margin: 30px 50px 10px 50px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.sectionSixMiddle>h3{
+  margin: 0px;
+}
+
+
+.sectionSixBottom{
+  display: flex;
+  width: 90%;
+  flex-direction: column; 
+  margin: 0 auto;
+}
+
+.sectionSixBottom>h2{
+  font-family: "fugaz one";
+  color: #5D5597;
+}
+
+.sectionSixBottomVideoCarousel{
+  align-self: center;
+  /* border: solid black 2px; */
+  width: 60%;
+}
+
+iframe{
+  height: 315px;
+}
+
+.renderArrowPrev{
+  color: #000;
+}
+
+
+/* SECTION SEVEN START */
+
+.sectionSevenWrapper{
+  margin-bottom: 50px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionSevenTop{
+  max-width: 700px;
+  width: 75%;
+  overflow: hidden; /* Ensures the image doesn't overflow the div */
+}
+
+
+.sectionSevenTop>img{
+  
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container while maintaining its aspect ratio */
+  
+}
+
+
+.sectionSevenBottom{
+  margin-top: 20px;
+  max-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato';
+  font-size: 1.3rem;
+  margin-left: 300px;
+  font-weight: 700;
+  background-color: #F99417;
+  border-radius: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.sectionSevenBottom>a{
+  margin-left: 8px;
+  color: black;
+}
+
+.sectionSevenBottom>a:hover{
+  color: blue;
+}
+
+
+
+/* FOOTER STARTS HERE  */
+
+.footerWrapper{
+  margin-top: 50px;
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  align-items: center;
+}
+.footerTop{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.footerTopRight{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.footerTopRightOne, .footerTopRightTwo{
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+.footerTopRightOne>.navFooterButton , .footerTopRightTwo>.navFooterButton{
+  font-size: 1rem;
+}
+
+.footerBottomRight>.navFooterButton{
+  font-size: 0.7rem;
+  padding: 6px;
+}
+
+.footerTopIcons{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icons{
+  font-size: 1.5rem;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.footerBottom{
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-top: solid black 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyrights{
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.copyrights>h4{
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+.copyrights>.copyrightIcon{
+  font-size: 1rem;
+}
+
+.icons:hover{
+  color: #F99417;
+}
+
+
+
+
+
+
+
+
+
+
