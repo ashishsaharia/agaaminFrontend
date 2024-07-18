@@ -1,5 +1,7 @@
 import secOneImage from "../../assets/agaaminImages/connectingPeople.jpg"
 
+import SearchBar from "../searchBar/searchBar"
+
 export default function SectionOne(){
     return(
         <div className="sectionOneWrapper">
@@ -11,10 +13,10 @@ export default function SectionOne(){
                 <h3>
                 Unleash the potential of a SmartName: your unified digital identity that brings together every facet of your online presence. 
                 </h3>
-                <h3 className="claimSmartName">
-                Claim Your Smartname Today
-                </h3>
-            {/* thsi is the place for the input box */}
+                <div className="sectionOneSearchBar">
+                    <SearchBar></SearchBar>
+
+                </div>
             </div>
             <div className="sectionOneRight sectionOneImageWrapper">
                 <img className="connectionPeople" src={secOneImage} alt="image" />

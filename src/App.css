@@ -10,7 +10,7 @@
 }
 
 .navFooterButton{
-
+  white-space: nowrap;
   cursor: pointer;
   border: none;
   padding: 0.5rem;
@@ -29,6 +29,7 @@
 
 
 .joinNowButton{
+  white-space: nowrap;
   cursor: pointer;
   height: 3.2rem;
   font-size: 1rem;
@@ -98,11 +99,119 @@ justify-content: space-between;
 }
 
 
+/* SEARCHBAR START */
+
+.searchBarWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.searchBarTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.fullNameWrapper {
+  font-family: 'open sans';
+  color: #F99417;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.tldWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tldDropdown {
+  cursor: pointer;
+  height: 45px;
+  padding: 0 10px;
+  font-size: 18px;
+  border: 3px solid #3F4CE8;
+  box-sizing: border-box;
+  margin-left: 5px;
+}
+
+.domainName {
+  height: 45px;
+  padding: 10px;
+  font-size: 18px;
+  border: 3px solid #3F4CE8;
+  box-sizing: border-box;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.domainName:focus,
+.tldDropdown:focus {
+  border-color: black;
+  outline: none;
+}
+
+.nameSearchButton {
+  cursor: pointer;
+  height: 48px;
+  width: 110px;
+  font-size: 18px;
+  background-color: white;
+  border: solid #3F4CE8 3px;
+  font-family: 'fugaz one';
+  color: #3F4CE8;
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+
+.nameSearchButton:hover {
+  background-color: #3F4CE8;
+  color: black;
+}
+
+option {
+  padding: 5px;
+  color: black;
+}
+
+@media (min-width: 700px) {
+  .searchBarTop {
+    flex-wrap: nowrap;
+  }
+
+  .fullNameWrapper {
+    margin-bottom: 0;
+    width: auto;
+  }
+
+  .domainName {
+    width: auto;
+  }
+}
+
+
+
+
+
+
 /* SECTION ONE START */
 
 
+
+
+
 .sectionOneWrapper{
-  margin-top: 80px;
+  margin-top: 50px;
   width: 92%;
   display: flex;
   justify-content: center;
@@ -139,6 +248,7 @@ justify-content: space-between;
 .sectionOneLeft>.claimSmartName{
   color: #8FA2DE;
 }
+
 
 
 
@@ -420,6 +530,7 @@ iframe{
 
 
 .sectionSevenBottom{
+  white-space: nowrap;
   margin-top: 20px;
   max-height: 40px;
   display: flex;
@@ -533,7 +644,33 @@ iframe{
 }
 
 
+@media(max-width:900px){
+  
+  .sectionOneWrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .sectionOneLeft{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .sectionOneImageWrapper{
+    width: 100%;
+  }
 
+  .sectionOneLeft>h1{
+    font-size: 3rem;
+  }
+
+
+
+  /* SECTION TWO  */
+
+  .sectionTwoCenter{
+    width: 80%;
+  }
+}
 
 
 

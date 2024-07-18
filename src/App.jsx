@@ -7,13 +7,16 @@ import SectionFive from './components/sectionFive/sectionFive';
 import SectionSix from './components/sectionSix/sectionSix';
 import SectionSeven from './components/sectionSeven/sectionSeven';
 import Footer from './components/footer/footer';
+import SearchBar from './components/searchBar/searchBar';
 import React from 'react';
+import { RecoilRoot } from 'recoil';
 // import "bootstrap/dist/css/bootstrap.css";
 import './App.css'
 
 function App() {
   return(
     <>
+    <RecoilRoot>
     <Navbar></Navbar>
     <SectionOne></SectionOne>
     <SectionTwo></SectionTwo>
@@ -23,6 +26,7 @@ function App() {
     <SectionSix></SectionSix>
     <SectionSeven></SectionSeven>
     <Footer></Footer>
+    </RecoilRoot>
     </>
 
   )

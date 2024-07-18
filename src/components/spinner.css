@@ -1,0 +1,16 @@
+.spinner {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 8px;
+    border: 3.5px solid rgba(27, 27, 27, 0.181);
+    border-top-color: #3F4CE8; /* Change color as needed */
+    animation: spin 1s infinite linear;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
