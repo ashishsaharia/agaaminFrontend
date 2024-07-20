@@ -111,7 +111,7 @@ function SearchBar() {
     <div className="searchBarWrapper">
       <div className="searchBarTop">
         <div className="fullNameWrapper">
-          <input className="domainName" type="text" value={name} onChange={onNameChange} placeholder="Enter Name" />
+          <input className="domainName" type="text" maxLength={20} value={name} onChange={onNameChange} placeholder="Enter Name" />
           <div className="tldWrapper">
             <select className="tldDropdown" name="tldName" id="tld" onChange={(e) => {
               setTld(e.target.value);

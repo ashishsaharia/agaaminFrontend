@@ -1,5 +1,4 @@
-import domains from "../../assets/agaaminImages/domains.png";
-
+import Domains from "../domains/domains"
 export default function SectionFive(){
 
     return (
@@ -11,7 +10,7 @@ export default function SectionFive(){
             <h1> yourself in your own language or even with emojis! Select from a wide range of domain names.</h1>
             </div>
             <div className="sectionFiveRight">
-                <img className="domains" src={domains} alt="domains" />
+                <Domains></Domains>
             </div>
         </div>
 

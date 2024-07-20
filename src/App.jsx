@@ -10,8 +10,9 @@ import Footer from './components/footer/footer';
 import SearchBar from './components/searchBar/searchBar';
 import React from 'react';
 import { RecoilRoot } from 'recoil';
-// import "bootstrap/dist/css/bootstrap.css";
 import './App.css'
+
+
 
 function App() {
   return(

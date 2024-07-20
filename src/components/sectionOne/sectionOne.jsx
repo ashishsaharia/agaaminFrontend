@@ -7,11 +7,11 @@ export default function SectionOne(){
         <div className="sectionOneWrapper">
             <div className="sectionOneLeft">
                 <h1 className="sectionOneMainLogo">
-                Discover Your Unique Identity Today:
+                Unlock Your Unique Identity Today
                 </h1>
 
                 <h3>
-                Unleash the potential of a SmartName: your unified digital identity that brings together every facet of your online presence. 
+                Your Online digital identity that unifies all facets of your online presence.
                 </h3>
                 <div className="sectionOneSearchBar">
                     <SearchBar></SearchBar>

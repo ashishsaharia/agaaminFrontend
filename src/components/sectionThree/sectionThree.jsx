@@ -1,4 +1,4 @@
-import services from "../../assets/agaaminImages/services.png"
+import Services from "../services/services"
 
 export default function SectionThree(){
     return(
@@ -8,7 +8,7 @@ export default function SectionThree(){
                 <h2>Connecting people through seamless social interactions and shared experiences </h2>
             </div>
             <div className="sectionThreeRight">
-                <img className="services" src={services} alt="services" />
+                <Services></Services>
             </div>
         </div>
     )
