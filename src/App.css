@@ -65,37 +65,37 @@
   height: 100%;
   object-fit: cover; /* Ensures the image covers the container while maintaining its aspect ratio */
 }
-
+.hamburgerlogo {
+  width: 80px;
+  height: 70px;
+}
 
 /* NAVBAR START */
 
-
-.navbarWrapper{
-  /* border-bottom: solid black 1px; */
-background-color: #ffffff;
-z-index: 10;
-margin-bottom: 0px;
-position: fixed;
-top: 0;
-padding-top: 8px;
-width: 98%;
-display: flex;
-justify-content: space-between;
-
+.navbarWrapper {
+  background-color: #ffffff;
+  z-index: 10;
+  margin-bottom: 0px;
+  position: fixed;
+  top: 0;
+  padding-top: 8px;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
 }
-.navButtonWrapper{
 
+.navButtonWrapper {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-
 }
-.navRouterButtonWrapper{
+
+.navRouterButtonWrapper {
   margin-right: 40px;
   display: flex;
   justify-content: space-evenly;
-
 }
+
 
 
 /* SECTION ONE START */
@@ -532,7 +532,19 @@ iframe{
   color: #F99417;
 }
 
+.hamburger{
+  display: none;
+}
 
+@media (max-width:600px){
+.hamburger{
+  display: block;
+}
+
+.navRouterButtonWrapper{
+  display: none;
+}
+} 
 
 
 
