@@ -9,6 +9,36 @@
   padding: 0.5rem;
 }
 
+
+/* Hamburger */
+.hamburgerlogo {
+  width: 100px;
+  height: 70px;
+}
+
+
+
+
+.hamburger{
+  display: none;
+}
+
+@media (max-width:900px){
+.hamburger{
+  display: block;
+  margin-left: 20px;
+  width: 50px;
+  height: 60px;
+}
+} 
+
+
+
+
+
+
+
+
 .navFooterButton{
   white-space: nowrap;
   cursor: pointer;
@@ -220,8 +250,10 @@ justify-content: space-between;
 .navButtonWrapper{
 
   display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  align-items: baseline;
 
 }
 .navRouterButtonWrapper{
@@ -230,121 +262,6 @@ justify-content: space-between;
   justify-content: space-evenly;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -920,6 +837,23 @@ iframe{
     width: 70%;
   }
 
+  .navFooterButton{
+    display: none;
+  }
+
+
+
+  .serviceWrapper{
+    height: 150px;
+    
+  }
+  .serviceHeading{
+    font-size: 16px;
+    margin: 0;
+  }
+  .serviceText{
+    font-size: 13px;
+  }
 
 
 .sectionFiveWrapper{

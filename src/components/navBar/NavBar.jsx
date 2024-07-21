@@ -1,5 +1,6 @@
 import JoinNow from "../buttons/joinNowButton";
 import NavFooterButton from '../buttons/nav-footerButton'
+import Hamburger from '../hamburger/hamburger.jsx';
 import Logo from '../logo/logo.jsx';
 export default function Navbar(){
     return (
@@ -17,6 +18,10 @@ export default function Navbar(){
                     <NavFooterButton namePlaceholder={"Sign Up"}></NavFooterButton>
                 </div>
                     <JoinNow></JoinNow>
+                    <div className="hamburgerWrapper">
+                    <Hamburger></Hamburger>
+            </div>
+
             </div>
         </div>
     )
