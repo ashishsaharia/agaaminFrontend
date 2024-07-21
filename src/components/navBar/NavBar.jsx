@@ -18,9 +18,7 @@ export default function Navbar(){
                     <NavFooterButton namePlaceholder={"Sign Up"}></NavFooterButton>
                 </div>
                 <div className="hamburgerWrapper">
-                    <Hamburger>
-
-                    </Hamburger>
+                    
                 </div>
                     <JoinNow></JoinNow>
             </div>
