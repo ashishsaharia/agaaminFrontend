@@ -665,47 +665,6 @@ iframe{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .sectionSevenBottom{
   white-space: nowrap;
   margin-top: 20px;
@@ -837,7 +796,7 @@ iframe{
     width: 70%;
   }
 
-  .navFooterButton{
+  .navRouterButtonWrapper{
     display: none;
   }
 
@@ -897,6 +856,28 @@ iframe{
 
   .sectionTwoCenter{
     width: 80%;
+  }
+
+
+
+
+
+  /* SECTION SEVEN  */
+
+  .sectionSevenBottom{
+    font-size: 1.2rem;
+    margin: 0 auto;
+  }
+
+
+
+
+  .footerTopRightOne{
+    margin: 5px;
+  }
+
+  iframe{
+    height: 250px;
   }
 }
 
