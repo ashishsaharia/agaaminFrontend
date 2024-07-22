@@ -134,7 +134,7 @@ function SearchBar() {
           }}/>
           <p><strong  style={{
         color:"#3F4CE8",
-      }}>{fullName + " "}</strong> is already taken.</p>
+      }}>{fullName + " "}</strong> is available.</p>
         </div>
       ); 
     }
