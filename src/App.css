@@ -879,6 +879,15 @@ iframe{
   iframe{
     height: 250px;
   }
+
+
+  .joinNowButton{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 0.9rem;
+    height: 3rem;
+    padding-top :14px;
+  }
 }
 
 
