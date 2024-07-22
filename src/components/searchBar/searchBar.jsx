@@ -100,9 +100,43 @@ function SearchBar() {
         color:"#3F4CE8",
       }}>Try again</strong></div>;
     } else if (input === 'taken') {
-      return <FaSkullCrossbones />; 
+      return (
+        <div style={{
+          display:"flex",
+          flexDirection:"row",
+          justifyContent:"center",
+          alignItems:"center",
+          fontFamily:"fugaz One",
+          margin:'8px',
+          fontSize:"15px"
+        }}>
+          <FaSkullCrossbones className="skull" style={{
+            marginRight :"5px"
+          }}/>
+          <p><strong  style={{
+        color:"#3F4CE8",
+      }}>{fullName + " "}</strong> is already taken.</p>
+        </div>
+      ); 
     } else if (input === 'available') {
-      return <GiCheckMark />;
+      return (
+        <div style={{
+          display:"flex",
+          flexDirection:"row",
+          justifyContent:"center",
+          alignItems:"center",
+          fontFamily:"fugaz One",
+          margin:'8px',
+          fontSize:"15px"
+        }}>
+          <GiCheckMark className="tick" style={{
+            marginRight :"5px"
+          }}/>
+          <p><strong  style={{
+        color:"#3F4CE8",
+      }}>{fullName + " "}</strong> is already taken.</p>
+        </div>
+      ); 
     }
     return null;
   };
