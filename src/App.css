@@ -793,6 +793,12 @@ iframe{
 
 
 @media(max-width:900px){
+
+  .sectionSixBottomVideoCarousel{
+    width: 100%;
+  }
+
+
   
   .sectionThreeWrapper{
     display: flex;
