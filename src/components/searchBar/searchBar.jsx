@@ -15,6 +15,14 @@ function SearchBar() {
 
   let fullName = name + '.' + tld;
 
+
+  const handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+      getStatus();
+    }
+  };
+
+
   // Function to fetch status
   const getStatus = async () => {
     try {
@@ -145,7 +153,7 @@ function SearchBar() {
     <div className="searchBarWrapper">
       <div className="searchBarTop">
         <div className="fullNameWrapper">
-          <input className="domainName" type="text" maxLength={20} value={name} onChange={onNameChange} placeholder="Enter Name" />
+          <input className="domainName" type="text" maxLength={30} onKeyDown={handleKeyPress} value={name} onChange={onNameChange} placeholder="Enter Name" />
           <div className="tldWrapper">
             <select className="tldDropdown" name="tldName" id="tld" onChange={(e) => {
               setInput("filling")
