@@ -45,7 +45,7 @@ const VideoCarousel = () => {
 
 
     return (
-        <Carousel className='videoCarousel' showStatus={false} infiniteLoop={true} autoPlay={true}>
+        <Carousel showThumbs={false} className='videoCarousel' showStatus={false} infiniteLoop={true} autoPlay={true}>
         {videos.map(obj=>{
         return(
             <div key={obj.id}>

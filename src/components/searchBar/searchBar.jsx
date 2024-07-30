@@ -18,7 +18,13 @@ function SearchBar() {
 
   const handleKeyPress = (event) => {
     if (event.key === 'Enter') {
-      getStatus();
+      if(name.length === 0){
+        setIsEmpty(true)
+    }
+    else{
+        setIsEmpty(false);
+        getStatus()
+    }
     }
   };
 
