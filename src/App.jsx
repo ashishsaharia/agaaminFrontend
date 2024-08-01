@@ -20,7 +20,7 @@ function App() {
     <RecoilRoot>
     <Navbar></Navbar>
     <SectionOne></SectionOne>
-     <SectionTwo></SectionTwo> 
+     {/* <SectionTwo></SectionTwo>  */}
     <SectionThree></SectionThree>
     <SectionFour></SectionFour>
     <SectionFive></SectionFive>
