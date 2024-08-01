@@ -29,7 +29,6 @@ export default function DohSetup() {
 
         document.addEventListener('mousemove', handleMouseMove);
 
-        // Attach event listeners to all text elements
         const textElements = document.querySelectorAll('body *:not(.cursor)');
         textElements.forEach(element => {
             element.addEventListener('mouseenter', handleMouseEnter);
