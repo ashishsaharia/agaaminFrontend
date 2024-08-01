@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import JoinNow from "../buttons/joinNowButton";
 import NavFooterButton from '../buttons/nav-footerButton'
 import Hamburger from '../hamburger/hamburger.jsx';
@@ -16,6 +17,7 @@ export default function Navbar(){
                     <NavFooterButton namePlaceholder={"About"}></NavFooterButton>
                     <NavFooterButton namePlaceholder={"Contact"}></NavFooterButton>
                     <NavFooterButton namePlaceholder={"Sign Up"}></NavFooterButton>
+                    <Link to='/agaaminFrontend/dohSetup'><NavFooterButton namePlaceholder={"DOH Setup"}></NavFooterButton></Link>
                 </div>
                     <JoinNow></JoinNow>
                     <div className="hamburgerWrapper">

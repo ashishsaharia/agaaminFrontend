@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import hamburgerlogo from '../../assets/agaaminImages/hamburgerlogo.png';
 import './hamburger.css';
+import { Link } from 'react-router-dom';
 
 export default function Hamburger() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +25,7 @@ export default function Hamburger() {
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><Link to="/agaaminFrontend/dohSetup">DOH Setup</Link></li>
           </ul>
         </div>
       )}

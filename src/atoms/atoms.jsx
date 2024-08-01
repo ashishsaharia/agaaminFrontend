@@ -14,3 +14,12 @@ export const tldState = atom({
     key: 'tldState',
     default :'bh3',
 })
+
+
+export const mousePositionState = atom({
+    key:"moustState",
+    default:{
+        x:0,
+        y:0,
+    }
+})
