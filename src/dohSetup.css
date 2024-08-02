@@ -83,12 +83,13 @@
     display: flex;
     justify-content: center;
 }
-
+/* this is the main setup page */
 .dohSetup {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     width: 75%;
     margin-top: 70px;
 }
