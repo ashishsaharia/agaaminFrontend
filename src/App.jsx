@@ -7,7 +7,6 @@ import SectionFive from './components/sectionFive/sectionFive';
 import SectionSix from './components/sectionSix/sectionSix';
 import SectionSeven from './components/sectionSeven/sectionSeven';
 import Footer from './components/footer/footer';
-import SearchBar from './components/searchBar/searchBar';
 import React from 'react';
 import { RecoilRoot } from 'recoil';
 import './App.css'
